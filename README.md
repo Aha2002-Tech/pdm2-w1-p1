@@ -14,7 +14,7 @@ I recommend having the slides from the lectures and [the p5.js reference](https
 ## Instructions
 
 
-If you can't remember how work with repositories, please check the PDM-1 VLE - (*Week 1 Practical 1 - How to work on programming exercises*) to create a new repo from this template and clone it to your computer.
+If you can't remember how to access classwork, please check the VLE site for PDM-1 (*Week 1 Practical 1 - How to work on programming exercises*) to create a new repo from this template and clone it to your computer.
 
 **1: View the instructions for each exercise**
 
