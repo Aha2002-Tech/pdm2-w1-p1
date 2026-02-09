@@ -14,7 +14,18 @@ function setup() {
  * // returns [["Hi", "Hi"], ["Hi", "Hi"], ["Hi", "Hi"]]
  * gridOfStrings(3, 2, "Hi");
  */
+function gridOfStrings(numRows, numCols, messeges){
+    let num
 
+
+
+
+
+
+
+
+
+}
 
 /**
  * Calculates the total of 2D array.
@@ -24,7 +35,15 @@ function setup() {
  * // returns 22
  * sumAll([1, 3], [3, 4], [5, 6])
  */
+function sumAll(number, number){
 
+
+
+
+
+
+
+}
 
 /**
  * Sums the inner arrays in a 2D array of numbers.
@@ -35,7 +54,15 @@ function setup() {
  * sumInner([1, 3], [3, 4], [5, 6])
  */
 
+function sumInner(numbr, number){
 
+
+
+
+
+
+
+}
 /**
  * Reverses the order of the nested arrays. The order of items within each nested array is
  * preserved.
@@ -44,4 +71,17 @@ function setup() {
  * @example
  * // returns [[7, 8, 9], [4, 5, 6], [1, 2, 3]]
  * flip([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+ * 
  */
+
+function flip(any){
+
+
+
+
+
+
+
+
+
+}
