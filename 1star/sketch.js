@@ -34,7 +34,15 @@ function fillArray(maxValue) {
  * // returns true
  * search([5, -1, 9], 5);
  */
+function search(arr, value)  {
+const arr = [];
+for (let i = a; i < value; i++){
+    arr. push (i);
+}
+return arr;
 
+
+}
 
 /**
  * Gets the total of all items in a number array.
@@ -46,6 +54,27 @@ function fillArray(maxValue) {
  * // returns 0
  * total([])
  */
+function total (arr) {
+    const resulte =[];
+    for (let i = 0; i < arr; i++ ){
+
+
+
+
+        arr .push (i);
+
+
+
+
+    }
+
+
+return arr;
+
+
+
+
+}
 
 
 /**
@@ -59,6 +88,17 @@ function fillArray(maxValue) {
  * // returns 0
  * count([0, 35, 3, 4, 3], 7)
  */
+function count(arr, value) {
+    let tally = 0; 
+    for (let i = 0; i < arr.length; i++) {
+        
+        if (arr[i] === value) {
+            tally++;
+        }
+    }
+    
+    return tally;
+}
 
 
 /**
@@ -73,3 +113,20 @@ function fillArray(maxValue) {
  * // returns [4, 4, 4]
  * repeat([4], 3)
  */
+function repeat(arr, times) {
+    const result = []; 
+
+    for (let i = 0; i < times; i++) {
+        
+        for (let j = 0; j < arr.length; j++) {
+            result.push(arr[j]); 
+        }
+    }
+    
+    return result; 
+
+
+
+
+
+}
