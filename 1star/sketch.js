@@ -34,14 +34,17 @@ function fillArray(maxValue) {
  * // returns true
  * search([5, -1, 9], 5);
  */
-function search(arr, value)  {
-const arr = [];
-for (let i = a; i < value; i++){
-    arr. push (i);
-}
-return arr;
-
-
+function search(arr, value) {
+    // 1. Loop through the array using its length
+    for (let i = 0; i < arr.length; i++) {
+        
+        
+        if (arr[i] === value) {
+            return true;
+        }
+    }
+    
+    return false;
 }
 
 /**
@@ -54,26 +57,15 @@ return arr;
  * // returns 0
  * total([])
  */
-function total (arr) {
-    const resulte =[];
-    for (let i = 0; i < arr; i++ ){
-
-
-
-
-        arr .push (i);
-
-
-
-
+function total(arr) {
+    let sum = 0; 
+    
+    for (let i = 0; i < arr.length; i++) {
+        sum += arr[i]; 
     }
-
-
-return arr;
-
-
-
-
+    
+   
+    return sum; 
 }
 
 
