@@ -14,17 +14,19 @@ function setup() {
  * // returns [["Hi", "Hi"], ["Hi", "Hi"], ["Hi", "Hi"]]
  * gridOfStrings(3, 2, "Hi");
  */
-function gridOfStrings(numRows, numCols, messeges){
-    let num
+function gridOfStrings(numRows, numCols, messeges) {
+  let grid = [];
 
+  for (let i = 0; i < numRows; i++) {
+    let row = []; 
+    for (let m = 0; m < numCols; m++) {
+      row.push(messeges);
+    }
+    
+    grid.push(row);
+  }
 
-
-
-
-
-
-
-
+  return grid;
 }
 
 /**
@@ -35,13 +37,21 @@ function gridOfStrings(numRows, numCols, messeges){
  * // returns 22
  * sumAll([1, 3], [3, 4], [5, 6])
  */
-function sumAll(number, number){
+function sumAll(arr) {
+
+  let total = 0;
+  for (let i = 0; i < arr.length; i++) {
+    let innerArray = arr[i];
+    for (let j = 0; j < innerArray.length; j++) {
+      total += innerArray[j]; 
+    }
+  }
+
+  return total;
+}
 
 
-
-
-
-
+{
 
 }
 
@@ -54,13 +64,24 @@ function sumAll(number, number){
  * sumInner([1, 3], [3, 4], [5, 6])
  */
 
-function sumInner(numbr, number){
+function sumInner(arr) {
+  
+  let results = [];
+  for (let i = 0; i < arr.length; i++) {
+    let innerArray = arr[i];
+    let rowSum = 0;
+    for (let j = 0; j < innerArray.length; j++) {
+      rowSum += innerArray[j];
+    }
+
+    results.push(rowSum);
+  }
+
+  return results;
+}
 
 
-
-
-
-
+{
 
 }
 /**
@@ -74,14 +95,15 @@ function sumInner(numbr, number){
  * 
  */
 
-function flip(any){
+function flip(arr) {
+  let result = [];
+  for (let i = arr.length - 1; i >= 0; i--) {
+    result.push(arr[i]);
+  }
+
+  return result;
+}
 
 
-
-
-
-
-
-
-
+{
 }
